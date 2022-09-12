@@ -6,7 +6,6 @@ import { useTheme } from "next-themes";
 
 // Data
 import yourData from "../data/portfolio.json";
-import Cursor from "../components/Cursor";
 
 const Edit = () => {
   // states
@@ -149,7 +148,6 @@ const Edit = () => {
   return (
     <div className="container mx-auto">
       <Header></Header>
-      <Cursor />
       <div className="mt-10">
         <div
           className={`z-10 sticky top-12 ${
